@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    background: #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.hero {
+    height: 768px;
+    background-image: url(mages/bg-2.jpg); /* ajustando a imagem principal */
+    background-size: cover; /* cobrir o background */
+    border-top: 1px solid transparent;
+}
+
+.hero-content {
+    text-align: center; /* alinha o texto no centr */
+    color: white;
+    margin-top: 150px; /* colocar uma margen no conteudo */
+}
+
+.hero-content h1 {
+    text-transform: uppercase; /* deixa o texto em maiusculo */
+    font-size: 50px;
+    text-shadow: 3px 3px 2px #333; /* sombra na fonte (direita, pra baixo e blur na sequencia) */
+}
+
+.hero-content p {
+    background: rgba(0, 0, 0, 0.5);
+    border-bottom: white solid;
+    padding: 10px;
+    margin-right: 420px;
+    margin-left: 420px;
+}
+
+.hero nav ul {
+    text-align: right;
+    margin: 20px;
+}
+
+.hero nav li {
+    display: inline-block; /* deixa o texto reto em linha */
+    list-style: none; /* tirar as bolinhas da lista */
+    border: solid 1px white; /* colocar borda na lista */
+    margin: 5px;
+}
+
+.hero nav a {
+    background: rgba(0, 0, 0, 0.3);      /* deixa a cor transparente, onde 0 e a cor, e 0.3 a transparencia */
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.hero nav a:hover{
+    background: rgba(0, 0, 0, 0.5);         /* quando passar o mouse em cima dos botao, vai aparecer uma sombra neles */
