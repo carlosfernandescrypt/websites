@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    background: #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.hero {
+    height: 500px;
+    background-image: url(mages/bg-2.jpg); 
+    background-size: cover; 
+    border-top: 1px solid transparent;
+
+}
+
+.hero-content {
+    text-align: center; 
+    margin-top: 150px; 
+
+}
+
+.hero-content h1 {
+    text-transform: uppercase; 
+    font-size: 50px;
+    text-shadow: 3px 3px 2px #333; 
+    color: white;
+}
+
+.hero-content p {
+    background: rgba(0, 0, 0, 0.5);
+    border-bottom: white solid;
+    padding: 10px;
+    display: inline-block;   
+    color: white;               
+}
+
+.hero nav ul {
+    text-align: right;
+    margin: 20px;
+}
+
+.hero nav li {
+    display: inline-block; 
+    list-style: none; 
+    border: solid 1px white; 
+    margin: 5px;
+}
+
+.hero nav a {
+    background: rgba(0, 0, 0, 0.3);      
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.hero nav a:hover{
+    background: rgba(0, 0, 0, 0.5);         
+}
+
+main {
+    width: 80%;       
+    margin: auto;
+}
+
+.content-section {
+    background-color: white; 
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    overflow: auto;
+}
+
+
+
+.card {
+    float: left;
+    width: 32%;
+    box-sizing: border-box;
+}                                             
+
+
+
+.card-01, .card-02 {
+    margin-right: 2%;   
+}
+
+.card img {
+    width: 100%; 
+    display: block;
+}
+
+.card p {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    margin: 0;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.content-section header {
+    background-color: white;
+    padding-top: 1px;
+    border-bottom: black solid;
+}
+
+
+footer {
+    background-color: grey;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    color: white;
+    font-weight: bold
+}
